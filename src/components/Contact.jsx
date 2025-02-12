@@ -24,13 +24,23 @@ const Contact = () => {
     setError('');
     setSuccess(false);
 
-    emailjs.sendForm(
-      'service_4ut58mj', // Replace with your EmailJS service ID
-      'template_85v00dl', // Replace with your new EmailJS template ID
-      formRef.current,
-      'ul_il-24zdzNZ6j_R' // Replace with your EmailJS public key
+    // Log the form data for debugging
+    console.log(form);
+
+    // Send email using EmailJS
+    const templateParams = {
+      from_name: form.name,      // Sender's name
+      from_email: form.email,    // Sender's email
+      message: form.message,     // Message content
+      to_name: "Recipient's Name", // Modify this as needed
+    };
+
+    emailjs.send(
+      'service_4ut58mj',          // Replace with your EmailJS service ID
+      'template_85v00dl',         // Replace with your template ID
+      templateParams,             // Send form data as templateParams
+      'ul_il-24zdzNZ6j_R'        // Replace with your EmailJS public key
     )
-    
       .then(() => {
         setLoading(false);
         setSuccess(true);
