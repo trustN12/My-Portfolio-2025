@@ -2,6 +2,98 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
   const projects = [
+     {
+  title: 'Frontend Guru',
+  description: 'A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration',
+  image: './frontendguru.png',
+  tech: [
+    'React',
+    'Vite',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Magic UI',
+    'Firebase',
+    'Clerk Auth',
+    'Razorpay',
+    'React Query',
+    'React Router DOM',
+    'Framer Motion',
+    'EmailJS',
+    'ChatGPT',
+    '11Labs AI'
+  ],
+  liveLink: 'https://frontend-guru.netlify.app/', // replace with your actual live URL
+  githubLink: 'https://github.com/yourusername/frontend-guru', // replace with your GitHub repo link
+},
+{
+  title: 'Meditate Me',
+  description: 'A soothing meditation app featuring guided sessions, image carousels, and seamless user experience',
+  image: './meditateme.png',
+  tech: [
+    'React',
+    'Vite',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Magic UI',
+    'DaisyUI',
+    'Embla Carousel',
+    'React Router DOM',
+    'Clerk Auth',
+    'Supabase'
+  ],
+  liveLink: 'https://meditate-me.netlify.app/', // replace with your actual live URL
+  githubLink: 'https://github.com/yourusername/meditate-me', // replace with your GitHub repo link
+},
+{
+  title: 'MyCertifolio',
+  description: 'A personal digital portfolio to showcase certificates, academic thesis, and achievements with a clean, animated UI',
+  image: './mycertifolio.png',
+  tech: [
+    'React',
+    'Vite',
+    'TypeScript',
+    'Tailwind CSS',
+    'shadcn/ui',
+    'Magic UI',
+    'Embla Carousel',
+    'React Router DOM',
+    'Framer Motion',
+    'Zod',
+    'React Hook Form',
+    'TanStack React Query',
+    'Lucide React',
+    'Supabase',
+    'Radix UI',
+    'Sonner'
+  ],
+  liveLink: 'https://mycertifolio.netlify.app/', // replace with your actual deployed link
+  githubLink: 'https://github.com/yourusername/mycertifolio', // replace with your actual repo
+},
+{
+  title: 'Creative Portfolio',
+  description: 'An interactive 3D portfolio built with Next.js showcasing projects, contact form, animations, and visual effects for a stunning developer presence',
+  image: './portfolio.png',
+  tech: [
+    'Next.js',
+    'React',
+    'Tailwind CSS',
+    'Framer Motion',
+    'Three.js',
+    'React Three Fiber',
+    'Drei',
+    'ThreeJS Toys',
+    'React Hook Form',
+    'Lucide React',
+    'React TSParticles',
+    'EmailJS',
+    'Sonner'
+  ],
+  liveLink: 'https://your-portfolio.netlify.app/', // replace with actual deployed URL
+  githubLink: 'https://github.com/yourusername/nextjs-creative-portfolio' // replace with actual repo
+},
+
+
+
     {
       title: 'Albert AI',
       description: 'An virtual assistant that interacts with users through voice',
