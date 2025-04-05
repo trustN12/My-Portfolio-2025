@@ -3,8 +3,15 @@ import { motion } from "framer-motion";
 const About = () => {
   const skills = [
     "JavaScript (ES6+)",
-    "React",
+    "React18,19",
     "React Router",
+    "Clerk Auth",
+    "Shadcn UI",
+    "Daisy UI",
+    "Magic UI",
+    "11Labs AI Agent",
+    "Razorpay",
+    "Chat Gpt",
     "Node.js",
     "Tailwind CSS",
     "Bootstrap",
@@ -12,12 +19,14 @@ const About = () => {
     "Redux",
     "Firebase",
     "EmailJS",
-    "Git",
-    "REST APIs",
+    "Git & Github",
+    "API",
     "Framer-motion",
-    "Unit test",
+    "Unit testing",
     "Generative AI",
-    "jQuery",
+    "React-Query",
+    "Next-JS",
+    "Netlify",
 
   ];
 
