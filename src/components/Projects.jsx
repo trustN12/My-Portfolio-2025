@@ -5,7 +5,7 @@ const Projects = () => {
      {
   title: 'Frontend Guru',
   description: 'A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration',
-  image: './frontendguru.png',
+  image: './frontend-guru.png',
   tech: [
     'React',
     'Vite',
@@ -23,7 +23,7 @@ const Projects = () => {
     '11Labs AI'
   ],
   liveLink: 'https://frontend-guru.netlify.app/', // replace with your actual live URL
-  githubLink: 'https://github.com/yourusername/frontend-guru', // replace with your GitHub repo link
+  githubLink: 'https://github.com/trustN12/frontend-guru', // replace with your GitHub repo link
 },
 {
   title: 'Meditate Me',
@@ -41,8 +41,8 @@ const Projects = () => {
     'Clerk Auth',
     'Supabase'
   ],
-  liveLink: 'https://meditate-me.netlify.app/', // replace with your actual live URL
-  githubLink: 'https://github.com/yourusername/meditate-me', // replace with your GitHub repo link
+  liveLink: 'https://meditate-me.vercel.app/', // replace with your actual live URL
+  githubLink: 'https://github.com/trustN12/Meditate-Me', // replace with your GitHub repo link
 },
 {
   title: 'MyCertifolio',
@@ -66,8 +66,8 @@ const Projects = () => {
     'Radix UI',
     'Sonner'
   ],
-  liveLink: 'https://mycertifolio.netlify.app/', // replace with your actual deployed link
-  githubLink: 'https://github.com/yourusername/mycertifolio', // replace with your actual repo
+  liveLink: 'https://stirring-meringue-b80f45.netlify.app/', // replace with your actual deployed link
+  githubLink: 'https://github.com/trustN12/MYcertifolio', // replace with your actual repo
 },
 {
   title: 'Creative Portfolio',
@@ -88,8 +88,8 @@ const Projects = () => {
     'EmailJS',
     'Sonner'
   ],
-  liveLink: 'https://your-portfolio.netlify.app/', // replace with actual deployed URL
-  githubLink: 'https://github.com/yourusername/nextjs-creative-portfolio' // replace with actual repo
+  liveLink: 'https://portfolionb.vercel.app/', // replace with actual deployed URL
+  githubLink: 'https://github.com/trustN12/PORTFOLIO' // replace with actual repo
 },
 
 
