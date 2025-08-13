@@ -3,16 +3,28 @@ import { motion } from "framer-motion";
 const About = () => {
   const skills = [
     "JavaScript (ES6+)",
-    "React18,19",
+    "React",
+    "NextJS",
+    "Accernity UI",
+    "Open-Router API LLM",
+    "VAPI AI",
+    "Assembly AI",
     "React Router",
+    "Convex",
+    "NeonDB",
+    "Drizzle-ORM",
+    "PostgreSQL",
+    "MongoDB",
+    "Mongoose",
     "Clerk Auth",
     "Shadcn UI",
     "Daisy UI",
     "Magic UI",
     "11Labs AI Agent",
-    "Razorpay",
+    "Razorpay Payment Gateway",
     "Chat Gpt",
     "Node.js",
+    "ExpressJS",
     "Tailwind CSS",
     "Bootstrap",
     "VScode",
@@ -25,7 +37,8 @@ const About = () => {
     "Unit testing",
     "Generative AI",
     "React-Query",
-    "Next-JS",
+     "Vercel",
+     "DNS",
     "Netlify",
 
   ];
@@ -43,7 +56,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-textSecondary mb-4">
-                Hello! I'm Nabarun, a passionate software developer with a love
+                Hello! I'm Nabarun, a passionate fullstack software developer with a love
                 for creating beautiful and functional web applications. My
                 journey in web development started back in 2023, and I've been
                 hooked ever since.

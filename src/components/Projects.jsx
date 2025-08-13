@@ -2,6 +2,33 @@ import { motion } from 'framer-motion';
 
 const Projects = () => {
   const projects = [
+    {
+      title: 'Mediecho AI',
+      description: `Built a cutting-edge AI medical consultation platform enabling patients to interact with a lifelike,
+    voice-enabled doctor avatar. Integrated real-time speech recognition, natural language processing, and
+    AI-generated medical reports. Implemented subscription plans with credit-based usage tracking and
+    secure online payments.`,
+      image: './Mediecho.png',
+      tech: [
+        'NextJS',
+        'Typescript',
+        'Tailwind CSS',
+        'shadcn/ui',
+        'Accernity UI',
+        'NeonDB',
+        'postgreSQL',
+        'Clerk Auth',
+        'Razorpay',
+        'Open-router API',
+        'VAPI AI',
+        'Framer',
+        'Drizzle-ORM',
+        'ChatGPT',
+        'Assembly AI'
+      ],
+      liveLink: 'https://www.mediecho.in/', // replace with your actual live URL
+      githubLink: 'https://github.com/trustN12/mediecho.git', // replace with your GitHub repo link
+    },
      {
   title: 'Frontend Guru',
   description: 'A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration',
