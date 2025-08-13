@@ -31,7 +31,7 @@ const Hero = () => {
             I build things for the web.
           </h2>
           <p className="text-textSecondary text-lg md:text-xl max-w-2xl mb-8 bg-primary/50 p-4 rounded-lg backdrop-blur-sm">
-            I'm a software developer specializing in building exceptional digital experiences.
+            I'm a fullstack software developer specializing in building exceptional digital experiences.
             Currently, I'm focused on building accessible, human-centered products.
           </p>
           <motion.div

@@ -1,151 +1,169 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+
+const projects = [
+  {
+    title: "Mediecho AI",
+    description: `Built a cutting-edge AI medical consultation platform enabling patients to interact with a lifelike,
+  voice-enabled doctor avatar. Integrated real-time speech recognition, natural language processing, and
+  AI-generated medical reports. Implemented subscription plans with credit-based usage tracking and
+  secure online payments.`,
+    image: "./Mediecho.png",
+    tech: [
+      "NextJS",
+      "Typescript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Accernity UI",
+      "NeonDB",
+      "postgreSQL",
+      "Clerk Auth",
+      "Razorpay",
+      "Open-router API",
+      "VAPI AI",
+      "Framer",
+      "Drizzle-ORM",
+      "ChatGPT",
+      "Assembly AI",
+    ],
+    liveLink: "https://www.mediecho.in/", // replace with your actual live URL
+    githubLink: "https://github.com/trustN12/mediecho.git", // replace with your GitHub repo link
+  },
+  {
+    title: "Frontend Guru",
+    description:
+      "A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration",
+    image: "./frontend-guru.png",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Magic UI",
+      "Firebase",
+      "Clerk Auth",
+      "Razorpay",
+      "React Query",
+      "React Router DOM",
+      "Framer Motion",
+      "EmailJS",
+      "ChatGPT",
+      "11Labs AI",
+    ],
+    liveLink: "https://frontend-guru.netlify.app/", // replace with your actual live URL
+    githubLink: "https://github.com/trustN12/frontend-guru", // replace with your GitHub repo link
+  },
+  {
+    title: "Meditate Me",
+    description:
+      "A soothing meditation app featuring guided sessions, image carousels, and seamless user experience",
+    image: "./meditateme.png",
+    tech: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Magic UI",
+      "DaisyUI",
+      "Embla Carousel",
+      "React Router DOM",
+      "Clerk Auth",
+      "Supabase",
+    ],
+    liveLink: "https://meditate-me.vercel.app/", // replace with your actual live URL
+    githubLink: "https://github.com/trustN12/Meditate-Me", // replace with your GitHub repo link
+  },
+  {
+    title: "MyCertifolio",
+    description:
+      "A personal digital portfolio to showcase certificates, academic thesis, and achievements with a clean, animated UI",
+    image: "./mycertifolio.png",
+    tech: [
+      "React",
+      "Vite",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Magic UI",
+      "Embla Carousel",
+      "React Router DOM",
+      "Framer Motion",
+      "Zod",
+      "React Hook Form",
+      "TanStack React Query",
+      "Lucide React",
+      "Supabase",
+      "Radix UI",
+      "Sonner",
+    ],
+    liveLink: "https://stirring-meringue-b80f45.netlify.app/", // replace with your actual deployed link
+    githubLink: "https://github.com/trustN12/MYcertifolio", // replace with your actual repo
+  },
+  {
+    title: "Creative Portfolio",
+    description:
+      "An interactive 3D portfolio built with Next.js showcasing projects, contact form, animations, and visual effects for a stunning developer presence",
+    image: "./portfolio.png",
+    tech: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Three.js",
+      "React Three Fiber",
+      "Drei",
+      "ThreeJS Toys",
+      "React Hook Form",
+      "Lucide React",
+      "React TSParticles",
+      "EmailJS",
+      "Sonner",
+    ],
+    liveLink: "https://portfolionb.vercel.app/", // replace with actual deployed URL
+    githubLink: "https://github.com/trustN12/PORTFOLIO", // replace with actual repo
+  },
+
+  {
+    title: "Albert AI",
+    description:
+      "An virtual assistant that interacts with users through voice",
+    image: "./albert.png",
+    tech: [
+      "Javascript",
+      "Bootstrap",
+      "Siriwave",
+      "ParticlesJS",
+      "Speech Recognition API",
+    ],
+    liveLink: "https://albert-ai-three.vercel.app/",
+    githubLink: "https://github.com/trustN12/AlbertAI.git",
+  },
+  {
+    title: "CodeQuest App",
+    description: "A web-app with a coding quiz and live javascript editor.",
+    image: "./codequest.png",
+    tech: [
+      "React",
+      "Tailwind CSS",
+      "React-Ace",
+      "React-Router",
+      "Framer-motion",
+    ],
+    liveLink: "https://code-quest-mu.vercel.app/",
+    githubLink: "https://github.com/trustN12/CodeQuest.git",
+  },
+  {
+    title: "Oceana",
+    description:
+      "A visually engaging and interactive web platform dedicated to raising awarness about marine life and ocean protection.",
+    image: "./oceana.png",
+    tech: ["React", "Tailwind CSS", "GSAP", "clip-path"],
+    liveLink: "https://oceana-six.vercel.app/",
+    githubLink: "https://github.com/trustN12/Oceana.git",
+  },
+];
 
 const Projects = () => {
-  const projects = [
-    {
-      title: 'Mediecho AI',
-      description: `Built a cutting-edge AI medical consultation platform enabling patients to interact with a lifelike,
-    voice-enabled doctor avatar. Integrated real-time speech recognition, natural language processing, and
-    AI-generated medical reports. Implemented subscription plans with credit-based usage tracking and
-    secure online payments.`,
-      image: './Mediecho.png',
-      tech: [
-        'NextJS',
-        'Typescript',
-        'Tailwind CSS',
-        'shadcn/ui',
-        'Accernity UI',
-        'NeonDB',
-        'postgreSQL',
-        'Clerk Auth',
-        'Razorpay',
-        'Open-router API',
-        'VAPI AI',
-        'Framer',
-        'Drizzle-ORM',
-        'ChatGPT',
-        'Assembly AI'
-      ],
-      liveLink: 'https://www.mediecho.in/', // replace with your actual live URL
-      githubLink: 'https://github.com/trustN12/mediecho.git', // replace with your GitHub repo link
-    },
-     {
-  title: 'Frontend Guru',
-  description: 'A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration',
-  image: './frontend-guru.png',
-  tech: [
-    'React',
-    'Vite',
-    'Tailwind CSS',
-    'shadcn/ui',
-    'Magic UI',
-    'Firebase',
-    'Clerk Auth',
-    'Razorpay',
-    'React Query',
-    'React Router DOM',
-    'Framer Motion',
-    'EmailJS',
-    'ChatGPT',
-    '11Labs AI'
-  ],
-  liveLink: 'https://frontend-guru.netlify.app/', // replace with your actual live URL
-  githubLink: 'https://github.com/trustN12/frontend-guru', // replace with your GitHub repo link
-},
-{
-  title: 'Meditate Me',
-  description: 'A soothing meditation app featuring guided sessions, image carousels, and seamless user experience',
-  image: './meditateme.png',
-  tech: [
-    'React',
-    'Vite',
-    'Tailwind CSS',
-    'shadcn/ui',
-    'Magic UI',
-    'DaisyUI',
-    'Embla Carousel',
-    'React Router DOM',
-    'Clerk Auth',
-    'Supabase'
-  ],
-  liveLink: 'https://meditate-me.vercel.app/', // replace with your actual live URL
-  githubLink: 'https://github.com/trustN12/Meditate-Me', // replace with your GitHub repo link
-},
-{
-  title: 'MyCertifolio',
-  description: 'A personal digital portfolio to showcase certificates, academic thesis, and achievements with a clean, animated UI',
-  image: './mycertifolio.png',
-  tech: [
-    'React',
-    'Vite',
-    'TypeScript',
-    'Tailwind CSS',
-    'shadcn/ui',
-    'Magic UI',
-    'Embla Carousel',
-    'React Router DOM',
-    'Framer Motion',
-    'Zod',
-    'React Hook Form',
-    'TanStack React Query',
-    'Lucide React',
-    'Supabase',
-    'Radix UI',
-    'Sonner'
-  ],
-  liveLink: 'https://stirring-meringue-b80f45.netlify.app/', // replace with your actual deployed link
-  githubLink: 'https://github.com/trustN12/MYcertifolio', // replace with your actual repo
-},
-{
-  title: 'Creative Portfolio',
-  description: 'An interactive 3D portfolio built with Next.js showcasing projects, contact form, animations, and visual effects for a stunning developer presence',
-  image: './portfolio.png',
-  tech: [
-    'Next.js',
-    'React',
-    'Tailwind CSS',
-    'Framer Motion',
-    'Three.js',
-    'React Three Fiber',
-    'Drei',
-    'ThreeJS Toys',
-    'React Hook Form',
-    'Lucide React',
-    'React TSParticles',
-    'EmailJS',
-    'Sonner'
-  ],
-  liveLink: 'https://portfolionb.vercel.app/', // replace with actual deployed URL
-  githubLink: 'https://github.com/trustN12/PORTFOLIO' // replace with actual repo
-},
-
-
-
-    {
-      title: 'Albert AI',
-      description: 'An virtual assistant that interacts with users through voice',
-      image: './albert.png',
-      tech: ['Javascript', 'Bootstrap', 'Siriwave', 'ParticlesJS', 'Speech Recognition API'],
-      liveLink: 'https://albert-ai-three.vercel.app/',
-      githubLink: 'https://github.com/trustN12/AlbertAI.git',
-    },
-    {
-      title: 'CodeQuest App',
-      description: 'A web-app with a coding quiz and live javascript editor.',
-      image: './codequest.png',
-      tech: ['React', 'Tailwind CSS', 'React-Ace', 'React-Router', 'Framer-motion'],
-      liveLink: 'https://code-quest-mu.vercel.app/',
-      githubLink: 'https://github.com/trustN12/CodeQuest.git',
-    },
-    {
-      title: 'Oceana',
-      description: 'A visually engaging and interactive web platform dedicated to raising awarness about marine life and ocean protection.',
-      image: './oceana.png',
-      tech: ['React', 'Tailwind CSS', 'GSAP', 'clip-path'],
-      liveLink: 'https://oceana-six.vercel.app/',
-      githubLink: 'https://github.com/trustN12/Oceana.git',
-    },
-  ];
+ 
 
   return (
     <section id="projects" className="py-20">
@@ -167,6 +185,7 @@ const Projects = () => {
               >
                 <div className="relative h-56">
                   <img
+                    loading="lazy"
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover"
@@ -174,8 +193,12 @@ const Projects = () => {
                   <div className="absolute inset-0 bg-primary/50 hover:bg-transparent transition-colors duration-300"></div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2 neon-text">{project.title}</h3>
-                  <p className="text-textSecondary mb-4">{project.description}</p>
+                  <h3 className="text-xl font-bold mb-2 neon-text">
+                    {project.title}
+                  </h3>
+                  <p className="text-textSecondary mb-4">
+                    {project.description}
+                  </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, techIndex) => (
                       <span
