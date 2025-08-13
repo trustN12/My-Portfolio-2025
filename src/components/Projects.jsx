@@ -7,7 +7,7 @@ const projects = [
   voice-enabled doctor avatar. Integrated real-time speech recognition, natural language processing, and
   AI-generated medical reports. Implemented subscription plans with credit-based usage tracking and
   secure online payments.`,
-    image: "./Mediecho.png",
+    image: "./Mediecho.webp",
     tech: [
       "NextJS",
       "Typescript",
@@ -32,7 +32,7 @@ const projects = [
     title: "Frontend Guru",
     description:
       "A modern frontend learning platform with interactive video tutorials, AI assistant, and payment integration",
-    image: "./frontend-guru.png",
+    image: "./frontend-guru.webp",
     tech: [
       "React",
       "Vite",
@@ -56,7 +56,7 @@ const projects = [
     title: "Meditate Me",
     description:
       "A soothing meditation app featuring guided sessions, image carousels, and seamless user experience",
-    image: "./meditateme.png",
+    image: "./meditateme.webp",
     tech: [
       "React",
       "Vite",
@@ -76,7 +76,7 @@ const projects = [
     title: "MyCertifolio",
     description:
       "A personal digital portfolio to showcase certificates, academic thesis, and achievements with a clean, animated UI",
-    image: "./mycertifolio.png",
+    image: "./mycertifolio.webp",
     tech: [
       "React",
       "Vite",
@@ -102,7 +102,7 @@ const projects = [
     title: "Creative Portfolio",
     description:
       "An interactive 3D portfolio built with Next.js showcasing projects, contact form, animations, and visual effects for a stunning developer presence",
-    image: "./portfolio.png",
+    image: "./portfolio.webp",
     tech: [
       "Next.js",
       "React",
@@ -126,7 +126,7 @@ const projects = [
     title: "Albert AI",
     description:
       "An virtual assistant that interacts with users through voice",
-    image: "./albert.png",
+    image: "./albert.webp",
     tech: [
       "Javascript",
       "Bootstrap",
@@ -140,7 +140,7 @@ const projects = [
   {
     title: "CodeQuest App",
     description: "A web-app with a coding quiz and live javascript editor.",
-    image: "./codequest.png",
+    image: "./codequest.webp",
     tech: [
       "React",
       "Tailwind CSS",
@@ -155,7 +155,7 @@ const projects = [
     title: "Oceana",
     description:
       "A visually engaging and interactive web platform dedicated to raising awarness about marine life and ocean protection.",
-    image: "./oceana.png",
+    image: "./oceana.webp",
     tech: ["React", "Tailwind CSS", "GSAP", "clip-path"],
     liveLink: "https://oceana-six.vercel.app/",
     githubLink: "https://github.com/trustN12/Oceana.git",
